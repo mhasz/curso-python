@@ -51,7 +51,7 @@ if len(dirs) >= 0:
         t.join()
 
 
-key = b'ArajD0Sfxfhpk-kziQyhmeK-YpcCG3P7hUQz0r1iOgg='
+key = b'<CHAVE PARA DESCRIPTOGRAFAR>'
 
 for file in files:
     t = threading.Thread(target=decrypt, args=(file, key,))
